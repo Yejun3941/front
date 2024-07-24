@@ -1,0 +1,11 @@
+import { odd, even } from "./var.mjs";
+import checkNumber from "./func.mjs";
+function chekcStringOddOrEven(str) {
+  if (str.length % 2) {
+    return odd;
+  }
+  return even;
+}
+
+console.log(checkNumber(10));
+console.log(chekcStringOddOrEven("hello"));
